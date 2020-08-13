@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ForgeRock/iot-edge/v7/internal/jws"
+	"github.com/JacoJooste/iot-edge/v7/internal/jws"
 	"gopkg.in/square/go-jose.v2"
 	"gopkg.in/square/go-jose.v2/jwt"
 )

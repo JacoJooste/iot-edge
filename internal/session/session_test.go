@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ForgeRock/iot-edge/v7/pkg/callback"
+	"github.com/JacoJooste/iot-edge/v7/pkg/callback"
 )
 
 func Test_processCallbacks(t *testing.T) {
