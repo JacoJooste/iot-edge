@@ -24,9 +24,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/ForgeRock/iot-edge/v7/internal/debug"
-	"github.com/ForgeRock/iot-edge/v7/internal/jws"
-	"github.com/ForgeRock/iot-edge/v7/pkg/callback"
+	"github.com/JacoJooste/iot-edge/v7/internal/debug"
+	"github.com/JacoJooste/iot-edge/v7/internal/jws"
+	"github.com/JacoJooste/iot-edge/v7/pkg/callback"
 	"gopkg.in/square/go-jose.v2"
 )
 

@@ -22,9 +22,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/ForgeRock/iot-edge/v7/internal/client"
-	"github.com/ForgeRock/iot-edge/v7/pkg/callback"
-	"github.com/ForgeRock/iot-edge/v7/pkg/session"
+	"github.com/JacoJooste/iot-edge/v7/internal/client"
+	"github.com/JacoJooste/iot-edge/v7/pkg/callback"
+	"github.com/JacoJooste/iot-edge/v7/pkg/session"
 )
 
 type DefaultSession struct {

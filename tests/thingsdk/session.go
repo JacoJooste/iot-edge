@@ -17,10 +17,10 @@
 package main
 
 import (
-	"github.com/ForgeRock/iot-edge/v7/pkg/builder"
-	"github.com/ForgeRock/iot-edge/v7/pkg/callback"
-	"github.com/ForgeRock/iot-edge/v7/tests/internal/anvil"
-	"github.com/ForgeRock/iot-edge/v7/tests/internal/anvil/am"
+	"github.com/JacoJooste/iot-edge/v7/pkg/builder"
+	"github.com/JacoJooste/iot-edge/v7/pkg/callback"
+	"github.com/JacoJooste/iot-edge/v7/tests/internal/anvil"
+	"github.com/JacoJooste/iot-edge/v7/tests/internal/anvil/am"
 )
 
 // SessionValid checks that the Session method returns true for a valid session

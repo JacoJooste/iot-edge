@@ -23,10 +23,10 @@ import (
 	"crypto/rand"
 	"time"
 
-	"github.com/ForgeRock/iot-edge/v7/internal/clock"
-	"github.com/ForgeRock/iot-edge/v7/pkg/callback"
-	"github.com/ForgeRock/iot-edge/v7/pkg/thing"
-	"github.com/ForgeRock/iot-edge/v7/tests/internal/anvil"
+	"github.com/JacoJooste/iot-edge/v7/internal/clock"
+	"github.com/JacoJooste/iot-edge/v7/pkg/callback"
+	"github.com/JacoJooste/iot-edge/v7/pkg/thing"
+	"github.com/JacoJooste/iot-edge/v7/tests/internal/anvil"
 	"gopkg.in/square/go-jose.v2"
 	"gopkg.in/square/go-jose.v2/jwt"
 )

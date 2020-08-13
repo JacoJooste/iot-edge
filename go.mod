@@ -1,4 +1,4 @@
-module github.com/ForgeRock/iot-edge/v7
+module github.com/JacoJooste/iot-edge/v7
 
 go 1.13
 

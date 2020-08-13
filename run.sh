@@ -27,19 +27,19 @@ export GO111MODULE=on
 case "$1" in
 anvil)
   # Run the Thing SDK tests
-  go run github.com/ForgeRock/iot-edge/tests/thingsdk
+  go run github.com/JacoJooste/iot-edge/tests/thingsdk
 	;;
 test)
   # Run the IoT unit tests
-  go test -v -p 1 -timeout 5s -coverprofile=coverage.out -failfast github.com/ForgeRock/iot-edge/...
+  go test -v -p 1 -timeout 5s -coverprofile=coverage.out -failfast github.com/JacoJooste/iot-edge/...
 	;;
 example)
   # Run the example program
-  go run github.com/ForgeRock/iot-edge/examples/"$2" "${@:3}"
+  go run github.com/JacoJooste/iot-edge/examples/"$2" "${@:3}"
 	;;
 gateway)
   # Run the Gateway application
-  go run github.com/ForgeRock/iot-edge/cmd/gateway "${@:2}"
+  go run github.com/JacoJooste/iot-edge/cmd/gateway "${@:2}"
 	;;
 coverage)
   go tool cover -html=coverage.out
@@ -48,7 +48,7 @@ doc)
   # Download latest godoc to get module support, godoc is no longer packaged with go.
   go get -u golang.org/x/tools/cmd/godoc
   echo
-  echo "Go to: http://localhost:6060/pkg/github.com/ForgeRock/iot-edge/"
+  echo "Go to: http://localhost:6060/pkg/github.com/JacoJooste/iot-edge/"
   "$GOPATH"/bin/godoc
   ;;
 *)

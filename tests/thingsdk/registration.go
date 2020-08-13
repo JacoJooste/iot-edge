@@ -20,9 +20,9 @@ import (
 	"crypto/x509"
 	"strings"
 
-	"github.com/ForgeRock/iot-edge/v7/internal/client"
-	"github.com/ForgeRock/iot-edge/v7/pkg/builder"
-	"github.com/ForgeRock/iot-edge/v7/tests/internal/anvil"
+	"github.com/JacoJooste/iot-edge/v7/internal/client"
+	"github.com/JacoJooste/iot-edge/v7/pkg/builder"
+	"github.com/JacoJooste/iot-edge/v7/tests/internal/anvil"
 	"gopkg.in/square/go-jose.v2"
 )
 

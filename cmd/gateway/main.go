@@ -31,9 +31,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ForgeRock/iot-edge/v7/internal/gateway"
-	"github.com/ForgeRock/iot-edge/v7/pkg/callback"
-	"github.com/ForgeRock/iot-edge/v7/pkg/thing"
+	"github.com/JacoJooste/iot-edge/v7/internal/gateway"
+	"github.com/JacoJooste/iot-edge/v7/pkg/callback"
+	"github.com/JacoJooste/iot-edge/v7/pkg/thing"
 	"github.com/jessevdk/go-flags"
 )
 

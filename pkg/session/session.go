@@ -20,7 +20,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/ForgeRock/iot-edge/v7/pkg/callback"
+	"github.com/JacoJooste/iot-edge/v7/pkg/callback"
 )
 
 // Session represents an authenticated session with AM.
